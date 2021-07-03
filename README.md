@@ -1,7 +1,7 @@
 #Fragance Application
 Es una aplicación web con Bootstrap 5 con un formulario funcional hecha con NodeJS, Express y Nodemailer.
 
-Para que funcione necesitas instalar:s
+Para que funcione necesitas instalar:
 
 <code>npm install express express-handlebars body-parser nodemailer</code>
 
