@@ -11,7 +11,7 @@ después
 
 Para iniciar el servidor puedes usar:
 
-<code> npm run dev </code>
+<code> npm run dev</code>
 
 or you can also
 
