@@ -58,24 +58,22 @@ app.post('/send', (req, res) => {
     `;
 
       // Creamos una funcion re-utilizable usando el protocolo SMTP con nodemailer
-  let transporter = nodemailer.createTransport({
-    host: 'smtp.office365.com', // SMTP INFO SOLO PARA OFFICE 365 ACCOUNTS
-    port: 587,
-    secure: false, // true para 465, falsa para otros.
-    auth: {
-        user: 'correoelectronico@outlook.com', // correo del transporte
-        pass: 'password'  // contraseña del transporte
-    },
-    // Transport Layer Securuty. 
-    tls:{
-      rejectUnauthorized:false
-    }
-  });
+      const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+          user: 'fragancecsa@gmail.com',
+          pass: 'ewqmvhxgyihsuzrf' 
+        }
+      });
+    
+      // tls:{
+      //   rejectUnauthorized:false
+      // }
 
   // Set up de los datos del correo
   let mailOptions = {
-      from: '"Fabio Menjívar" <correoelectronico@outlook.com>', // Correo del emisor
-      to: 'anotheremail@outlook.com', // Lista de receptores
+      from: '"Fabio Menjívar" <fragancecsa@gmail.com>', // Correo del emisor
+      to: 'ricardo.menjivar2022@adoc.superate.org.sv', // Lista de receptores
       subject: 'IT WORKED!!!', // Asunto del correo
       html: output // cuerpo html.
   };
