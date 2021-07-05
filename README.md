@@ -23,3 +23,9 @@ or you can also
 
 And point your browser to `http://localhost:3000`. Optionally, specify
 a port by supplying the `PORT` env variable.
+
+### Credits
+
+- Front-end design was made by [@abigood](https://www.instagram.com/fuentes_eve93/) using [HTML](https://github.com/eudicots/Cactus), [CSS](https://www.w3schools.com/css/)& [Bootstrap 5](https://getbootstrap.com/).
+- Web Application & Deployment was created by [@Lawkmur](https://fabiomenjivar.cf/) using [JS](https://www.javascript.com/), [NODEJS](https://nodejs.org/), [EXPRESSJS](https://expressjs.com/)& [NODEMAILER](https://nodemailer.com/about/)
+- Based on [BootstrapMADE](https://bootstrapmade.com/groovin-free-bootstrap-theme/).
