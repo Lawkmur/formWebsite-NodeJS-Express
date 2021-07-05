@@ -27,5 +27,5 @@ a port by supplying the `PORT` env variable.
 ### Credits
 
 - Front-end design was made by [@abigood](https://www.instagram.com/fuentes_eve93/) using [HTML](https://github.com/eudicots/Cactus), [CSS](https://www.w3schools.com/css/) & [Bootstrap 5](https://getbootstrap.com/).
-- Contact Form & Web Deployment was created by [@Lawkmur](https://fabiomenjivar.cf/) using [JS](https://www.javascript.com/), [NodeJS](https://nodejs.org/), [ExpressJS](https://expressjs.com/) & [Nodemailer](https://nodemailer.com/about/)
+- Contact Form & Web Deployment was made by [@Lawkmur](https://fabiomenjivar.cf/) using [JS](https://www.javascript.com/), [NodeJS](https://nodejs.org/), [ExpressJS](https://expressjs.com/) & [Nodemailer](https://nodemailer.com/about/)
 - Based on [BootstrapMADE](https://bootstrapmade.com/groovin-free-bootstrap-theme/).
