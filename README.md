@@ -3,7 +3,7 @@ Es una aplicación web con Bootstrap 5 con un formulario funcional hecha con Nod
 
 Para que funcione necesitas instalar:
 
-<code>npm install express express-handlebars body-parser socket.io nodemailer</code>
+<code>npm install</code>
 
 después
 
@@ -12,14 +12,6 @@ después
 Para iniciar el servidor puedes usar:
 
 <code> npm run dev</code>
-
-or you can also
-
-<code> node index.js </code>
-
-or you can also
-
-<code> npm start </code>
 
 And point your browser to `http://localhost:3000`. Optionally, specify
 a port by supplying the `PORT` env variable.
