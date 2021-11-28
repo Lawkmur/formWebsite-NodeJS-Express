@@ -13,8 +13,7 @@ Para iniciar el servidor puedes usar:
 
 <code> npm run dev</code>
 
-And point your browser to `http://localhost:3000`. Optionally, specify
-a port by supplying the `PORT` env variable.
+And point your browser to `http://localhost:3000`.
 
 ### Credits
 
